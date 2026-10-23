@@ -25,7 +25,7 @@ import prashnottari2 from './assets/prashnottari-2.jpg.jpeg';
 import bhaktirasSindhu from './assets/bhaktiras-sindhu.jpg.jpeg';
 import brajRasMadhuri from './assets/braj-ras-madhuri.jpg.jpeg';
 import premRasMadira from './assets/prem-ras-madira.jpg.jpeg';
-import firebase from './firebase/firebase';
+
 
 const book1 = whoAmI;
 const book2 = prashnottari2;
