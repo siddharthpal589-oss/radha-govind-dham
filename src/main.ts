@@ -26,7 +26,6 @@ import bhaktirasSindhu from './assets/bhaktiras-sindhu.jpg.jpeg';
 import brajRasMadhuri from './assets/braj-ras-madhuri.jpg.jpeg';
 import premRasMadira from './assets/prem-ras-madira.jpg.jpeg';
 
-
 const book1 = whoAmI;
 const book2 = prashnottari2;
 const book3 = bhaktirasSindhu;
@@ -347,35 +346,28 @@ menuToggle?.addEventListener("click", () => {
 
 adminBtn?.addEventListener("click", (e) => {
   e.preventDefault();
-
-  const email = prompt("Enter Admin Email:");
-  const password = prompt("Enter Password:");
-
-  if (email === "siddharthpal589@gmail.com" &&
-     password === "Sidi@1122") {
-    alert("Login Successful!");
-    window.location.assign("/pages/admin.html");
-  } else {
-    alert("Wrong Email or Password!");
-  }
-});async function loadAnnouncement() {
-  const announcementText =
-    document.getElementById("announcementList");
-
+  // Never store admin credentials in public frontend code.
+  window.location.assign("/src/pages/login.html");
+});
+async function loadAnnouncement() {
+  const announcementText = document.getElementById("announcementList");
   if (!announcementText) return;
 
-  const snapshot = await getDocs(collection(db, "announcements"));
+  try {
+    const snapshot = await getDocs(collection(db, "announcements"));
 
-  if (snapshot.empty) {
-    announcementText.textContent = "No Announcement";
-    return;
+    if (snapshot.empty) {
+      announcementText.textContent = "No Announcement";
+      return;
+    }
+
+    const last = snapshot.docs[snapshot.docs.length - 1].data();
+    announcementText.textContent =
+      typeof last.text === "string" ? last.text : "Announcement unavailable";
+  } catch (error) {
+    console.error("Could not load announcements:", error);
+    announcementText.textContent = "Announcements are temporarily unavailable.";
   }
-
-  const docs = snapshot.docs;
-
-  const last = docs[docs.length - 1].data();
-
-  announcementText.textContent = last.text;
 }
 
-loadAnnouncement();
+void loadAnnouncement();
