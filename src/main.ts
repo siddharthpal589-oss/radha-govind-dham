@@ -347,7 +347,7 @@ menuToggle?.addEventListener("click", () => {
 adminBtn?.addEventListener("click", (e) => {
   e.preventDefault();
   // Never store admin credentials in public frontend code.
-  window.location.assign("/src/pages/login.html");
+  window.location.assign("/pages/login.html");
 });
 async function loadAnnouncement() {
   const announcementText = document.getElementById("announcementList");
