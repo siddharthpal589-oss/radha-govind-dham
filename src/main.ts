@@ -1,4 +1,4 @@
-
+﻿
 import './style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -38,8 +38,8 @@ AOS.init({
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <nav id="navbar" class="navbar">
-  <div class="logo">🪔 Radha Govind Dham</div>
-<div class="menu-toggle" id="menu-toggle">☰</div>
+  <div class="logo">ðŸª” Radha Govind Dham</div>
+<div class="menu-toggle" id="menu-toggle">â˜°</div>
   <ul class="nav-links">
     <li><a href="#">Home</a></li>
     <li><a href="#gallery">Gallery</a></li>
@@ -50,19 +50,19 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </nav>
 <header class="hero">
 <div class="hero-content">
-  <h1>🛕 Radha Govind Dham</h1>
+  <h1>ðŸ›• Radha Govind Dham</h1>
   <p>Welcome to the Divine Home of Shri Radha Krishna</p>
 
-  <a href="#gallery" class="btn">📸 View Gallery</a>
-  <a href="#shop" class="btn">📚 Book Shop</a>
+  <a href="#gallery" class="btn">ðŸ“¸ View Gallery</a>
+  <a href="#shop" class="btn">ðŸ“š Book Shop</a>
   </div>
 </header>
 <section class="live-kirtan" 
 data-aos="fade-right">
-<h2><span class="live-badge">🔴 LIVE</span> KIRTAN</h2>
+<h2><span class="live-badge">ðŸ”´ LIVE</span> KIRTAN</h2>
 <p><strong>Every Sunday</strong></p>
 
-<p>🕣 8:30 AM – 11:30 AM</p>
+<p>ðŸ•£ 8:30 AM â€“ 11:30 AM</p>
 
 <p>Join the divine Hari Naam Sankirtan live from Radha Govind Dham.</p>
 <div class="live-video">
@@ -80,7 +80,7 @@ data-aos="fade-right">
 <section id="about" class="about"
 data-aos="fade-up">
 <div class="container">
-    <h2>🙏 About Radha Govind Dham</h2>
+    <h2>ðŸ™ About Radha Govind Dham</h2>
 
     <p>
       Radha Govind Dham, Kanpur is a sacred temple dedicated to the divine
@@ -110,27 +110,27 @@ data-aos="fade-up">
     <h3>Our Mission</h3>
 
     <ul>
-      <li>🌸 Spread devotion to Shri Radha Krishna.</li>
-      <li>🌸 Promote love, peace and spiritual wisdom.</li>
-      <li>🌸 Organize satsang, kirtan and festivals.</li>
-      <li>🌸 Inspire selfless service for humanity.</li>
+      <li>ðŸŒ¸ Spread devotion to Shri Radha Krishna.</li>
+      <li>ðŸŒ¸ Promote love, peace and spiritual wisdom.</li>
+      <li>ðŸŒ¸ Organize satsang, kirtan and festivals.</li>
+      <li>ðŸŒ¸ Inspire selfless service for humanity.</li>
     </ul>
   </div>
 </section>
 <section>
   <div class="card">
     <h2>Daily Darshan Timings</h2>
-    <p>🌅 Morning: 5:00 AM – 12:00 PM</p>
-    <p>🌇 Evening: 4:00 PM – 9:00 PM</p>
+    <p>ðŸŒ… Morning: 5:00 AM â€“ 12:00 PM</p>
+    <p>ðŸŒ‡ Evening: 4:00 PM â€“ 9:00 PM</p>
   </div>
 </section>
 
 <section>
   <div class="card">
     <h2>Contact</h2>
-    <p>📍 Radha Govind Dham</p>
-    <p>📞 +91 XXXXXXXXXX</p>
-    <p>📧 info@radhagovinddham.org</p>
+    <p>ðŸ“ Radha Govind Dham</p>
+    <p>ðŸ“ž +91 XXXXXXXXXX</p>
+    <p>ðŸ“§ info@radhagovinddham.org</p>
   </div>
 </section>
 </section>
@@ -139,7 +139,7 @@ data-aos="fade-up">
 <section id="gallery"
   data-aos="zoom-in">
 <div class="card">
-    <h2>📸 Image Gallery</h2>
+    <h2>ðŸ“¸ Image Gallery</h2>
     <div class="gallery">
    <img class="zoom-img" src="${img1}">
 <img class="zoom-img" src="${img2}">
@@ -156,7 +156,7 @@ data-aos="fade-up">
 </section>
 <section id="shop">
   <div class="card">
-    <h2>🛍️ Book Shop</h2>
+    <h2>ðŸ›ï¸ Book Shop</h2>
 
     <div class="gallery">
 
@@ -165,47 +165,47 @@ data-aos="fade-up">
         <h3>Who Am I? Who Is Mine?</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20प्रश्नोत्तरी%20भाग-1%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤ªà¥à¤°à¤¶à¥à¤¨à¥‹à¤¤à¥à¤¤à¤°à¥€%20à¤­à¤¾à¤—-1%20book%20order%20karni%20hai." target="_blank" class="btn">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book2}" alt="Prashnottari 2">
-        <h3>प्रश्नोत्तरी भाग-2</h3>
+        <h3>à¤ªà¥à¤°à¤¶à¥à¤¨à¥‹à¤¤à¥à¤¤à¤°à¥€ à¤­à¤¾à¤—-2</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20प्रश्नोत्तरी%20भाग-2%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤ªà¥à¤°à¤¶à¥à¤¨à¥‹à¤¤à¥à¤¤à¤°à¥€%20à¤­à¤¾à¤—-2%20book%20order%20karni%20hai." target="_blank" class="btn">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book3}" alt="Bhaktiras Sindhu">
-        <h3>भक्तिरस सिंधु</h3>
+        <h3>à¤­à¤•à¥à¤¤à¤¿à¤°à¤¸ à¤¸à¤¿à¤‚à¤§à¥</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20भक्तिरस%20सिंधु%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤­à¤•à¥à¤¤à¤¿à¤°à¤¸%20à¤¸à¤¿à¤‚à¤§à¥%20book%20order%20karni%20hai." target="_blank" class="btn">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book4}" alt="Braj Ras Madhuri">
-        <h3>ब्रज रस माधुरी भाग-3</h3>
+        <h3>à¤¬à¥à¤°à¤œ à¤°à¤¸ à¤®à¤¾à¤§à¥à¤°à¥€ à¤­à¤¾à¤—-3</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-        href="https://wa.me/918318974660?text=Namaste%20mujhe%20ब्रज%20रस%20माधुरी%20भाग-3%20book%20order%20karni%20hai." target="_blank" class="btn">
+        href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤¬à¥à¤°à¤œ%20à¤°à¤¸%20à¤®à¤¾à¤§à¥à¤°à¥€%20à¤­à¤¾à¤—-3%20book%20order%20karni%20hai." target="_blank" class="btn">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book5}" alt="Prem Ras Madira">
-        <h3>प्रेम रस मादिरा</h3>
+        <h3>à¤ªà¥à¤°à¥‡à¤® à¤°à¤¸ à¤®à¤¾à¤¦à¤¿à¤°à¤¾</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20प्रेम%20रस%20मादिरा%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤ªà¥à¤°à¥‡à¤®%20à¤°à¤¸%20à¤®à¤¾à¤¦à¤¿à¤°à¤¾%20book%20order%20karni%20hai." target="_blank" class="btn">
   Buy Now
 </a>
       </div>
@@ -214,26 +214,26 @@ data-aos="fade-up">
   </div>
 </section>
 <section id="announcements" class="card">
-  <h2>📢 Latest Announcements</h2>
+  <h2>ðŸ“¢ Latest Announcements</h2>
   <div id="announcementList">
     Loading announcements...
   </div>
 </section>
 <footer>
-  © 2026 Radha Govind Dham. All Rights Reserved.
+  Â© 2026 Radha Govind Dham. All Rights Reserved.
 </footer><a href="https://wa.me/918318974660"
    class="whatsapp-btn"
    target="_blank">
-   💬
+   ðŸ’¬
 </a>
-<button id="topBtn" class="top-btn">⬆</button>
+<button id="topBtn" class="top-btn">â¬†</button>
 <div id="lightbox" class="lightbox">
   <span id="close-lightbox">&times;</span>
   <img id="lightbox-img" src="" alt="">
 </div>
 <section class="countdown"
   data-aos="fade-left">
-<h2>⏳ Next Sunday Kirtan Starts In</h2>
+<h2>â³ Next Sunday Kirtan Starts In</h2>
   <div id="countdown"></div>
 </section>
 `;
@@ -259,7 +259,7 @@ const isLive =
   );
 
 if (liveBadge) {
-  liveBadge.textContent = isLive ? "🟢 LIVE NOW" : "🔴 OFFLINE";
+  liveBadge.textContent = isLive ? "ðŸŸ¢ LIVE NOW" : "ðŸ”´ OFFLINE";
 }
   const target = new Date();
 
@@ -347,7 +347,7 @@ menuToggle?.addEventListener("click", () => {
 adminBtn?.addEventListener("click", (e) => {
   e.preventDefault();
   // Never store admin credentials in public frontend code.
-  window.location.assign("/pages/login.html");
+  window.location.assign("/src/pages/login.html");
 });
 async function loadAnnouncement() {
   const announcementText = document.getElementById("announcementList");
