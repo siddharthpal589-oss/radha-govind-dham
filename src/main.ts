@@ -1,4 +1,4 @@
-﻿
+
 import './style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -38,8 +38,8 @@ AOS.init({
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <nav id="navbar" class="navbar">
-  <div class="logo">ðŸª” Radha Govind Dham</div>
-<div class="menu-toggle" id="menu-toggle">â˜°</div>
+  <div class="logo">&#128367; Radha Govind Dham</div>
+<div class="menu-toggle" id="menu-toggle">&#9776;</div>
   <ul class="nav-links">
     <li><a href="#">Home</a></li>
     <li><a href="#gallery">Gallery</a></li>
@@ -50,16 +50,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </nav>
 <header class="hero">
 <div class="hero-content">
-  <h1>ðŸ›• Radha Govind Dham</h1>
+  <h1>&#128330; Radha Govind Dham</h1>
   <p>Welcome to the Divine Home of Shri Radha Krishna</p>
 
-  <a href="#gallery" class="btn">ðŸ“¸ View Gallery</a>
-  <a href="#shop" class="btn">ðŸ“š Book Shop</a>
+  <a href="#gallery" class="btn">&#128247; View Gallery</a>
+  <a href="#shop" class="btn">&#128218; Book Shop</a>
   </div>
 </header>
 <section class="live-kirtan" 
 data-aos="fade-right">
-<h2><span class="live-badge">ðŸ”´ LIVE</span> KIRTAN</h2>
+<h2><span class="live-badge">ðŸ”´ &#128308; LIVE</span> KIRTAN</h2>
 <p><strong>Every Sunday</strong></p>
 
 <p>ðŸ•£ 8:30 AM â€“ 11:30 AM</p>
@@ -80,7 +80,7 @@ data-aos="fade-right">
 <section id="about" class="about"
 data-aos="fade-up">
 <div class="container">
-    <h2>ðŸ™ About Radha Govind Dham</h2>
+    <h2>ðŸ™ &#128367; About Radha Govind Dham</h2>
 
     <p>
       Radha Govind Dham, Kanpur is a sacred temple dedicated to the divine
@@ -139,7 +139,7 @@ data-aos="fade-up">
 <section id="gallery"
   data-aos="zoom-in">
 <div class="card">
-    <h2>ðŸ“¸ Image Gallery</h2>
+    <h2>ðŸ“¸ &#128247; Image Gallery</h2>
     <div class="gallery">
    <img class="zoom-img" src="${img1}">
 <img class="zoom-img" src="${img2}">
@@ -214,13 +214,13 @@ data-aos="fade-up">
   </div>
 </section>
 <section id="announcements" class="card">
-  <h2>ðŸ“¢ Latest Announcements</h2>
+  <h2>ðŸ“¢ &#128226; Latest Announcements</h2>
   <div id="announcementList">
     Loading announcements...
   </div>
 </section>
 <footer>
-  Â© 2026 Radha Govind Dham. All Rights Reserved.
+  Â&copy; 2026 Radha Govind Dham. All Rights Reserved.
 </footer><a href="https://wa.me/918318974660"
    class="whatsapp-btn"
    target="_blank">
