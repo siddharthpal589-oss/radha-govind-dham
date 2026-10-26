@@ -1,4 +1,3 @@
-
 import './style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -59,10 +58,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 </header>
 <section class="live-kirtan" 
 data-aos="fade-right">
-<h2><span class="live-badge">ðŸ”´ &#128308; LIVE</span> KIRTAN</h2>
+<h2><span class="live-badge">&#128308; LIVE</span> KIRTAN</h2>
 <p><strong>Every Sunday</strong></p>
 
-<p>ðŸ•£ 8:30 AM â€“ 11:30 AM</p>
+<p>8:30 AM - 11:30 AM</p>
 
 <p>Join the divine Hari Naam Sankirtan live from Radha Govind Dham.</p>
 <div class="live-video">
@@ -80,7 +79,7 @@ data-aos="fade-right">
 <section id="about" class="about"
 data-aos="fade-up">
 <div class="container">
-    <h2>ðŸ™ &#128367; About Radha Govind Dham</h2>
+    <h2>&#128367; About Radha Govind Dham</h2>
 
     <p>
       Radha Govind Dham, Kanpur is a sacred temple dedicated to the divine
@@ -88,8 +87,6 @@ data-aos="fade-up">
       for darshan, bhajan, satsang and spiritual learning. The temple inspires
       every visitor to experience devotion, inner peace and selfless service.
     </p>
-
-</p>
 
 <div class="maharaj-card">
     <img src="${kripaluji}"
@@ -110,27 +107,27 @@ data-aos="fade-up">
     <h3>Our Mission</h3>
 
     <ul>
-      <li>ðŸŒ¸ Spread devotion to Shri Radha Krishna.</li>
-      <li>ðŸŒ¸ Promote love, peace and spiritual wisdom.</li>
-      <li>ðŸŒ¸ Organize satsang, kirtan and festivals.</li>
-      <li>ðŸŒ¸ Inspire selfless service for humanity.</li>
+      <li>Spread devotion to Shri Radha Krishna.</li>
+      <li>Promote love, peace and spiritual wisdom.</li>
+      <li>Organize satsang, kirtan and festivals.</li>
+      <li>Inspire selfless service for humanity.</li>
     </ul>
   </div>
 </section>
 <section>
   <div class="card">
     <h2>Daily Darshan Timings</h2>
-    <p>ðŸŒ… Morning: 5:00 AM â€“ 12:00 PM</p>
-    <p>ðŸŒ‡ Evening: 4:00 PM â€“ 9:00 PM</p>
+    <p>Morning: 5:00 AM - 12:00 PM</p>
+    <p>Evening: 4:00 PM - 9:00 PM</p>
   </div>
 </section>
 
 <section>
   <div class="card">
     <h2>Contact</h2>
-    <p>ðŸ“ Radha Govind Dham</p>
-    <p>ðŸ“ž +91 XXXXXXXXXX</p>
-    <p>ðŸ“§ info@radhagovinddham.org</p>
+    <p>Radha Govind Dham</p>
+    <p>+91 XXXXXXXXXX</p>
+    <p>info@radhagovinddham.org</p>
   </div>
 </section>
 </section>
@@ -139,7 +136,7 @@ data-aos="fade-up">
 <section id="gallery"
   data-aos="zoom-in">
 <div class="card">
-    <h2>ðŸ“¸ &#128247; Image Gallery</h2>
+    <h2>&#128247; Image Gallery</h2>
     <div class="gallery">
    <img class="zoom-img" src="${img1}">
 <img class="zoom-img" src="${img2}">
@@ -156,7 +153,7 @@ data-aos="fade-up">
 </section>
 <section id="shop">
   <div class="card">
-    <h2>ðŸ›ï¸ Book Shop</h2>
+    <h2>Book Shop</h2>
 
     <div class="gallery">
 
@@ -165,47 +162,47 @@ data-aos="fade-up">
         <h3>Who Am I? Who Is Mine?</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤ªà¥à¤°à¤¶à¥à¤¨à¥‹à¤¤à¥à¤¤à¤°à¥€%20à¤­à¤¾à¤—-1%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20I%20would%20like%20to%20order%20this%20book." target="_blank" rel="noopener noreferrer">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book2}" alt="Prashnottari 2">
-        <h3>à¤ªà¥à¤°à¤¶à¥à¤¨à¥‹à¤¤à¥à¤¤à¤°à¥€ à¤­à¤¾à¤—-2</h3>
+        <h3>Prashnottari Part-2</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤ªà¥à¤°à¤¶à¥à¤¨à¥‹à¤¤à¥à¤¤à¤°à¥€%20à¤­à¤¾à¤—-2%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20I%20would%20like%20to%20order%20this%20book." target="_blank" rel="noopener noreferrer">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book3}" alt="Bhaktiras Sindhu">
-        <h3>à¤­à¤•à¥à¤¤à¤¿à¤°à¤¸ à¤¸à¤¿à¤‚à¤§à¥</h3>
+        <h3>Bhaktiras Sindhu</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤­à¤•à¥à¤¤à¤¿à¤°à¤¸%20à¤¸à¤¿à¤‚à¤§à¥%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20I%20would%20like%20to%20order%20this%20book." target="_blank" rel="noopener noreferrer">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book4}" alt="Braj Ras Madhuri">
-        <h3>à¤¬à¥à¤°à¤œ à¤°à¤¸ à¤®à¤¾à¤§à¥à¤°à¥€ à¤­à¤¾à¤—-3</h3>
+        <h3>Braj Ras Madhuri Part-3</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-        href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤¬à¥à¤°à¤œ%20à¤°à¤¸%20à¤®à¤¾à¤§à¥à¤°à¥€%20à¤­à¤¾à¤—-3%20book%20order%20karni%20hai." target="_blank" class="btn">
+        href="https://wa.me/918318974660?text=Namaste%20I%20would%20like%20to%20order%20this%20book." target="_blank" rel="noopener noreferrer">
   Buy Now
 </a>
       </div>
 
       <div class="product">
         <img src="${book5}" alt="Prem Ras Madira">
-        <h3>à¤ªà¥à¤°à¥‡à¤® à¤°à¤¸ à¤®à¤¾à¤¦à¤¿à¤°à¤¾</h3>
+        <h3>Prem Ras Madira</h3>
         <p>Jagadguruttam Shri Kripalu Ji Maharaj</p>
         <a class="btn"
-         href="https://wa.me/918318974660?text=Namaste%20mujhe%20à¤ªà¥à¤°à¥‡à¤®%20à¤°à¤¸%20à¤®à¤¾à¤¦à¤¿à¤°à¤¾%20book%20order%20karni%20hai." target="_blank" class="btn">
+         href="https://wa.me/918318974660?text=Namaste%20I%20would%20like%20to%20order%20this%20book." target="_blank" rel="noopener noreferrer">
   Buy Now
 </a>
       </div>
@@ -214,26 +211,26 @@ data-aos="fade-up">
   </div>
 </section>
 <section id="announcements" class="card">
-  <h2>ðŸ“¢ &#128226; Latest Announcements</h2>
+  <h2>&#128226; Latest Announcements</h2>
   <div id="announcementList">
     Loading announcements...
   </div>
 </section>
 <footer>
-  Â&copy; 2026 Radha Govind Dham. All Rights Reserved.
+  &copy; 2026 Radha Govind Dham. All Rights Reserved.
 </footer><a href="https://wa.me/918318974660"
    class="whatsapp-btn"
    target="_blank">
-   ðŸ’¬
+   WhatsApp
 </a>
-<button id="topBtn" class="top-btn">â¬†</button>
+<button id="topBtn" class="top-btn">↑</button>
 <div id="lightbox" class="lightbox">
   <span id="close-lightbox">&times;</span>
   <img id="lightbox-img" src="" alt="">
 </div>
 <section class="countdown"
   data-aos="fade-left">
-<h2>â³ Next Sunday Kirtan Starts In</h2>
+<h2>Next Sunday Kirtan Starts In</h2>
   <div id="countdown"></div>
 </section>
 `;
@@ -259,7 +256,7 @@ const isLive =
   );
 
 if (liveBadge) {
-  liveBadge.textContent = isLive ? "ðŸŸ¢ LIVE NOW" : "ðŸ”´ OFFLINE";
+  liveBadge.textContent = isLive ? "LIVE NOW" : "OFFLINE";
 }
   const target = new Date();
 
@@ -307,11 +304,11 @@ images.forEach((img) => {
   });
 });
 
-closeLightbox.addEventListener("click", () => {
+closeLightbox?.addEventListener("click", () => {
   lightbox.style.display = "none";
 });
 
-lightbox.addEventListener("click", (e) => {
+lightbox?.addEventListener("click", (e) => {
   if (e.target === lightbox) {
     lightbox.style.display = "none";
   }
@@ -332,7 +329,7 @@ window.addEventListener("scroll", () => {
     }
 });
 
-topBtn.addEventListener("click", () => {
+topBtn?.addEventListener("click", () => {
     window.scrollTo({
         top: 0,
         behavior: "smooth"
