@@ -245,7 +245,7 @@ data-aos="fade-up">
 </footer>
 
   
-
+<a href="https://wa.me/918318974660"
    class="whatsapp-btn"
    target="_blank">
    WhatsApp
