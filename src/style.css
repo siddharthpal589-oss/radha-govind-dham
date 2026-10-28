@@ -871,3 +871,33 @@ button[type='submit'] {
     transition-duration: 0.01ms !important;
   }
 }
+
+.site-footer {
+  background: #102d4f;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+  margin-top: 30px;
+  line-height: 1.8;
+}
+
+.site-footer h2 {
+  color: #f2c66d;
+}
+
+.site-footer a {
+  color: #f2c66d;
+  text-decoration: none;
+}
+
+.footer-credit {
+  border-top: 1px solid #ffffff40;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .site-footer {
+    padding: 25px 15px;
+  }
+}

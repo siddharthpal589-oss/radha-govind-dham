@@ -216,9 +216,36 @@ data-aos="fade-up">
     Loading announcements...
   </div>
 </section>
-<footer>
-  &copy; 2026 Radha Govind Dham. All Rights Reserved.
-</footer><a href="https://wa.me/918318974660"
+
+<footer class="site-footer" id="contact">
+  <h2>Radha Govind Dham</h2>
+  <p>A sacred place dedicated to Shri Radha Krishna.</p>
+
+  <p>
+    <strong>Location:</strong> Kanpur, Uttar Pradesh
+  </p>
+
+  <p>
+    <a href="https://wa.me/918318974660"
+       target="_blank"
+       rel="noopener noreferrer">
+      Contact us on WhatsApp
+    </a>
+  </p>
+
+  <p class="footer-credit">
+    Built by Siddharth Pal | ApnoAI Intern
+    <br>
+    <a href="https://apnoai.com"
+       target="_blank"
+       rel="noopener noreferrer">ApnoAI</a>
+  </p>
+
+  <p>&copy; 2026 Radha Govind Dham. All Rights Reserved.</p>
+</footer>
+
+  
+
    class="whatsapp-btn"
    target="_blank">
    WhatsApp
